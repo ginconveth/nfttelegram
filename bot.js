@@ -13,7 +13,6 @@ class Bot {
         : {};
       this._setCommandsListener();
       this.allowedClientIds = [...(options.allowedClientIds || [])];
-      console.log("Bot is successfully initialized!");
       this.sendMessage("Bot is successfully initialized!");
     }
   }
